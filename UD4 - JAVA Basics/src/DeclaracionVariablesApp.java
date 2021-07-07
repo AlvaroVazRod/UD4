@@ -19,71 +19,46 @@ public class DeclaracionVariablesApp {
 	 * Metodo que resuelve el Ejercicio 1
 	 */
 	public static void computos (int num1, int num2) {
-		double resultado=0, num3=num1,num4=num2;
-		int resultado1=0;
 		System.out.println("Ejercicio 1: ");
-		resultado1=num1+num2;
-		System.out.println("Suma "+resultado1);
-		resultado1=num1-num2;
-		System.out.println("Resta "+resultado1);
-		resultado1=num1*num2;
-		System.out.println("Multiplicacion "+resultado1);
-		resultado=num3/num4;
-		System.out.println("Division "+resultado+"\n");
+		System.out.println("Suma "+(num1+num2));
+		System.out.println("Resta "+(num1-num2));
+		System.out.println("Multiplicacion "+(num1*num2));
+		System.out.println("Division "+((double)num1/num2)+"\n");
 	}
 	/*
 	 * Metodo que resuelve el Ejercicio 2
 	 */
 	public static void variables (int n, double a, char c) {
-		double resultado=0;
 		System.out.println("Ejercicio 2: ");
 		System.out.println("N= "+n);
 		System.out.println("A= "+a);
 		System.out.println("C= "+c);
-		resultado=n+a;
-		System.out.println("Suma "+resultado);
-		resultado=a-n;
-		System.out.println("Resta "+resultado);
-		resultado=c;
-		System.out.println("Valor c "+resultado+"\n");
+		System.out.println("Suma "+(n+a));
+		System.out.println("Resta "+(a-n));
+		System.out.println("Valor c "+((int)c)+"\n");
 	}
 	/*
 	 * Metodo que resuelve el Ejercicio 3
 	 */
 	public static void variables2 (int x, int y, double n2, double m) {
-		int resultado=0;
-		double resultado1=0;
 		System.out.println("Ejercicio 3: ");
 		System.out.println("X= "+x);
 		System.out.println("Y= "+y);
 		System.out.println("N= "+n2);
 		System.out.println("M= "+m);
-		resultado=x+y;
-		System.out.println("Suma "+resultado);
-		resultado=x-y;
-		System.out.println("Resta "+resultado);
-		resultado=x*y;
-		System.out.println("Multiplicacion "+resultado);
-		resultado1=x/y;
-		System.out.println("Division "+resultado1);
-		resultado1=x%y;
-		System.out.println("Resto "+resultado1);
-		resultado1=n2+m;
-		System.out.println("Suma "+resultado1);
-		resultado1=n2-m;
-		System.out.println("Resta "+resultado1);
-		resultado1=n2*m;
-		System.out.println("Multiplicacion "+resultado1);
-		resultado1=n2/m;
-		System.out.println("Division "+resultado1);
-		resultado1=n2%m;
-		System.out.println("Resto "+resultado1);
-		resultado1=x+n2;
-		System.out.println("Suma "+resultado1);
-		resultado1=y/m;
-		System.out.println("Division "+resultado1);
-		resultado1=y%m;
-		System.out.println("Resto "+resultado1);
+		System.out.println("Suma "+(x+y));
+		System.out.println("Resta "+(x-y));
+		System.out.println("Multiplicacion "+(x*y));
+		System.out.println("Division "+(x/y));
+		System.out.println("Resto "+(x%y));
+		System.out.println("Suma "+(n2+m));
+		System.out.println("Resta "+(n2-m));
+		System.out.println("Multiplicacion "+(n2*m));
+		System.out.println("Division "+(n2/m));
+		System.out.println("Resto "+(n2%m));
+		System.out.println("Suma "+(x+n2));
+		System.out.println("Division "+(y/m));
+		System.out.println("Resto "+(y%m));
 		System.out.println("X "+x*2+" Y "+y*x+" N "+n2*2+" M "+m*2);
 		System.out.println("Suma todos "+(x+y+n2+m));
 		System.out.println("Producto todos "+(x*y*n2*m)+"\n");
